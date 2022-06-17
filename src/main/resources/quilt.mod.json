@@ -1,25 +1,24 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "io.github.mystedd",
+		"id": "modsorganiser",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Mods Organiser",
+			"description": "",
 			"contributors": {
 				"Me!": "Owner"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"issues": "https://github.com/Mystedd/Mod-Organiser/issues",
+				"sources": "https://github.com/Mystedd/Mod-Organiser"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/modsorganiser/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "io.github.mystedd.mods_organiser.Main"
 		},
 		"depends": [
 			{
@@ -32,9 +31,12 @@
 			},
 			{
 				"id": "minecraft",
-				"versions": ">=1.19"
+				"versions": ">=1.0"
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"metadata": {
+		"license": ""
+	},
+	"mixin": "modsorganiser.mixins.json"
 }
